@@ -289,7 +289,7 @@ function decryptApiResponse(encryptedResponse) {
   }
 }
 
-app.get("/rc", async (req, res) => {
+app.get("/api/rc", async (req, res) => {
   const rc = req.query.query;
 
   if (!rc) {
